@@ -1,0 +1,61 @@
+.fadeIn {
+    animation-name: animationFadeIn;
+    -webkit-animation-name: animationFadeIn;
+    animation-duration: 4s;
+    -webkit-animation-duration: 4s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+}
+
+@keyframes animationFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+            opacity: 1;
+    }
+}
+
+.fadeInDown {
+    animation-name: animationfadeInDown;
+    -webkit-animation-name: animationfadeInDown;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+}
+
+@keyframes animationfadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+        -webkit-transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInUp {
+    animation-name: animationfadeInUp;
+    -webkit-animation-name: animationfadeInUp;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+}
+
+@keyframes animationfadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+        -webkit-transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+}

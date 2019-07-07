@@ -70,14 +70,14 @@ nav li a:hover{
     background-size: cover; /* Ocupa el tamaño del div que contiene la imagen */
     background-position: center top;
     background-repeat: no-repeat;
-    padding: 15%;
+    padding: 20%;
     height: 95px;
     display: flex;
 }
 
 .product {
     padding:  var(--space);
-    margin-top: -326px;
+    margin-top: -426px;
 }
 
 .product .content {
