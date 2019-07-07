@@ -1,0 +1,170 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+/* -----------Variables----------- */
+
+:root {
+
+    /* colores */
+    --green-color: #7ACC2D;
+    --green-color-selected: #5E9E22;
+    --white-color: white;
+    --black-color: #313337;
+
+    /* espaciado */
+    --space: 10px;
+
+    /* Box Shadown */
+    --box-shadow: 2px 2px 2px #C1BCBC;
+}
+
+/* -----------Variables----------- */
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* -----------------navbar section------------------- */
+
+nav {
+    display: flex; /* Muestra los elementos en fila */
+    background: var(--green-color);
+    padding: var(--space);
+    color: var(--white-color);
+    justify-content: space-between; /* Coloca espacios entre los elementos del nav */
+    align-items: center; /*Alinea los elementos del nav en forma vertical en el centro */
+}
+
+nav ul {
+    display: flex; /* Muestra los elementos en fila*/
+}
+
+nav li {
+    padding-left: 20px;
+    list-style: none;
+}
+
+nav li a {
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: var(--white-color);
+}
+
+/* -----------------main section------------------- */
+
+.main_section {
+    padding: 15%;
+    text-align: center;
+}
+
+.products {
+    background-image: url("../img/curve.png");
+    max-height:  var(--space);
+    background-size: cover; /* Ocupa el tamaño del div que contiene la imagen */
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+}
+
+.product {
+    padding:  var(--space);
+    margin-top: -400px;
+}
+
+.product .content {
+    background-color: var(--white-color);
+    padding: 15px;
+    box-shadow: var(--box-shadow);
+}
+
+.img_content {
+    text-align: center;
+}
+
+.main_button {
+    background-color: var(--green-color);
+    width: 100%;
+    padding:  var(--space);
+    font-size: 12px;
+    color: var(--white-color);
+    border: 0px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.main_button:hover{
+    background-color: var(--green-color-selected);
+}
+
+/* -----------------main section------------------- */
+
+/* -----------------content section------------------- */
+
+#content {
+    display: flex;
+    padding: 15%;
+    text-align: center;
+}
+
+#content .types {
+    margin-right: 20px;
+    text-align: left;
+}
+
+#content .types h3 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.img_types {
+    text-align: center;
+}
+
+/* -----------------content section------------------- */
+
+/* -----------------mentions section------------------- */
+
+#mentions {
+    text-align: center;
+}
+
+#mentions .content {
+    display: flex;
+    padding: 5% 10% 5% 10%;
+}
+
+.card {
+    margin-left: 10px;
+    box-shadow: var(--box-shadow);
+    text-align: left;
+}
+
+.card .img_mention img {
+    width: 100%;
+}
+
+.card .text {
+    padding: 5px 10px 5px 10px;
+}
+
+/* -----------------mentions section------------------- */
+
+/* -----------------footer section------------------- */
+
+footer {
+    display: flex;
+    background: #434447;
+    padding: var(--space);
+    color: var(--white-color);
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+/* -----------------footer section------------------- */
