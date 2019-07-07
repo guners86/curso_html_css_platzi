@@ -69,13 +69,15 @@ nav li a:hover{
     max-height:  var(--space);
     background-size: cover; /* Ocupa el tamaño del div que contiene la imagen */
     background-position: center top;
-    padding: 20%;
+    background-repeat: no-repeat;
+    padding: 15%;
+    height: 95px;
     display: flex;
 }
 
 .product {
     padding:  var(--space);
-    margin-top: -400px;
+    margin-top: -326px;
 }
 
 .product .content {
@@ -105,37 +107,37 @@ nav li a:hover{
 
 /* -----------------main section------------------- */
 
-/* -----------------content section------------------- */
+/* -----------------benefits section------------------- */
 
-#content {
+.benefits {
     display: flex;
     padding: 15%;
     text-align: center;
 }
 
-#content .types {
+.benefits .benefit {
     margin-right: 20px;
     text-align: left;
 }
 
-#content .types h3 {
+.benefits .benefit h3 {
     margin-top: 30px;
     text-align: center;
 }
 
-.img_types {
+.img_benefit {
     text-align: center;
 }
 
-/* -----------------content section------------------- */
+/* -----------------benefits section------------------- */
 
 /* -----------------mentions section------------------- */
 
-#mentions {
+.mentions {
     text-align: center;
 }
 
-#mentions .content {
+.mention {
     display: flex;
     padding: 5% 10% 5% 10%;
 }
